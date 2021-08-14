@@ -1,0 +1,15 @@
+sent = ("we gona concatenate")
+another = sent
+print (another)
+first = input ('first name : ')
+second = input ('second name: ')
+msg = f'{first}[{second}] is a beginner coder'
+print (msg)
+print ('the type of the above printed message is ' , type (msg))
+print ('the no.of characters in the second name is ' , len (second))
+print ('The capital version of first ' , first.upper())
+print ('The lowercase version of second' , second.lower())
+print ('The title test' , first.title())
+print ('To find the word beginner' , another.find('gona') )
+print ("Now the word 'we' should have been replaced as " , another.replace('we', 'the team') )
+print ("to check if a particular word is present through boolean we gona use 'in' and see if 'the team ' is present" , 'the team' in another)
